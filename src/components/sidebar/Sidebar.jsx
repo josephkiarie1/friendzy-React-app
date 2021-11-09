@@ -1,6 +1,7 @@
 import React from 'react';
 import "./sidebar.css";
 import {Bookmark, ChangeHistoryOutlined, Chat, ChatBubble, ChatBubbleOutlineOutlined, Event, Group, HelpOutline, PlayCircleFilledOutlined, RssFeed, WorkOutline} from "@material-ui/icons";
+import { Button } from '@material-ui/core';
 
 export default function Sidebar() {
     return (
@@ -39,6 +40,46 @@ export default function Sidebar() {
                <Event className="sidebarIcon"/>
                <span className="sidebarListItemText">Events</span>
                </li>
+              </ul>
+              <Button className="sidebarButton">Show more</Button>
+              <hr className="sidebarHr"/>
+              <ul className="sidebarFriendList">
+              <li className="sidebarFriend">
+              <img className="sidebarFriendImg" src="/assets/person/2.jpeg" alt=""/>
+              <span className="sidebarFriendName"> Jojo </span>
+              </li>
+              <li className="sidebarFriend">
+              <img className="sidebarFriendImg" src="/assets/person/2.jpeg" alt=""/>
+              <span className="sidebarFriendName"> Jojo </span>
+              </li>
+              <li className="sidebarFriend">
+              <img className="sidebarFriendImg" src="/assets/person/2.jpeg" alt=""/>
+              <span className="sidebarFriendName"> Jojo </span>
+              </li>
+              <li className="sidebarFriend">
+              <img className="sidebarFriendImg" src="/assets/person/2.jpeg" alt=""/>
+              <span className="sidebarFriendName"> Jojo </span>
+              </li>
+              <li className="sidebarFriend">
+              <img className="sidebarFriendImg" src="/assets/person/2.jpeg" alt=""/>
+              <span className="sidebarFriendName"> Jojo </span>
+              </li>
+              <li className="sidebarFriend">
+              <img className="sidebarFriendImg" src="/assets/person/2.jpeg" alt=""/>
+              <span className="sidebarFriendName"> Jojo </span>
+              </li>
+              <li className="sidebarFriend">
+              <img className="sidebarFriendImg" src="/assets/person/2.jpeg" alt=""/>
+              <span className="sidebarFriendName"> Jojo </span>
+              </li>
+              <li className="sidebarFriend">
+              <img className="sidebarFriendImg" src="/assets/person/2.jpeg" alt=""/>
+              <span className="sidebarFriendName"> Jojo </span>
+              </li>
+              <li className="sidebarFriend">
+              <img className="sidebarFriendImg" src="/assets/person/2.jpeg" alt=""/>
+              <span className="sidebarFriendName"> Jojo </span>
+              </li>
               </ul>
             </div>
         </div>
